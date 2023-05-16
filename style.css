@@ -1,0 +1,55 @@
+/* Center the page content */
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the title */
+h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* Style the input and button */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #6752dd;
+    color: white;
+}
+
+/* Style the list */
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button.delete {
+    background-color: #f44336;
+}
